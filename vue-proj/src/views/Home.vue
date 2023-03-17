@@ -1,21 +1,31 @@
 <template>
   <div class ="home">
 
-  <h1 v-if="graduated">{{ student }}</h1>
-  <h1 v-else>"They did not yet graduate"</h1>
+<h1 v-if="graduated">{{ student }}</h1>
+<h1 v-else>"They did not yet graduate"</h1>
 
-  <ul>
-    <li v-for="animal in animals" :key="animal"> {{ animal }}
+<ul>
+  <li v-for="animal in animals" :key="animal"> {{ animal }}
 <!-- //animals.forEach(animal) =>{} -->
-    </li>
-  </ul>
+  </li>
+</ul>
 
-  <button @click="authState" v-if="loggedIn">LogOut</button>
-  <button @click="authState" v-else>Login</button>
+<button @click="authState" v-if="loggedIn">LogOut</button>
+<button @click="authState" v-else>Login</button>
 
-  <input type="text" placeholder="edit me" v-model="message"/>
-  <p> {{ message }}</p>
-  </div>
+<input type="text" placeholder="edit me" v-model="message"/>
+<p> {{ message }}</p>
+</div>
+  <div> 
+    <input type="checkbox" id= "jack" value="Jack" v-model="checkedNames"/>
+    <label for="jack">Jack</label>
+  <input type="checkbox" id= "john" value="John" v-model="checkedNames"/> 
+  <label for="john">John</label>
+  <input type="checkbox" id= "mike" value="Mike" v-model="checkedNames"/>
+  <label for="mike">Mike</label>
+  <br />
+  <span> Checked names: {{ checkedNames }}</span>
+</div>
   </template>
   
 
@@ -31,9 +41,10 @@
   animals: ["Pig", "Horse", "Donkey", "Cow", "Duck"  ],
   loggedIn: true,
   message: "",
+  checkedNames: [],
   };
   },
-methods: {
+/* methods: {
   authState: function() {
     if(this.loggedIn===false){
       this.loggedIn = true;
@@ -42,7 +53,7 @@ methods: {
       this.loggedIn = false;
     }
   }
-}
+} */
 };
   </script>
   <style>
