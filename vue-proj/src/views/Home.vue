@@ -1,23 +1,23 @@
 <template>
-  <div class="home">
+  <!-- <div class="home">
     <h1 v-if="graduated">{{ student }}</h1>
     <h1 v-else>"They did not yet graduate"</h1>
-
-    <ul>
+</div> -->
+   <!--  <ul>
       <li v-for="animal in animals" :key="animal">
-        {{ animal }}
+        {{ animal }} -->
         <!-- //animals.forEach(animal) =>{} -->
-      </li>
-    </ul>
-    <div>
+     <!--  </li>
+    </ul> -->
+   <!-- 
       <button @click="authState" v-if="loggedIn">LogOut</button>
-      <button @click="authState" v-else>Login</button>
-    </div>
-
+      <button @click="authState" v-else>Login</button> -->
+    
+<!-- 
     <input type="text" placeholder="edit me" v-model="message" />
     <p>{{ message }}</p>
-  </div>
-  <div>
+ -->
+  <!-- <div>
     <input type="checkbox" id="jack" value="Jack" v-model="checkedNames" />
     <label for="jack">Jack</label>
     <input type="checkbox" id="john" value="John" v-model="checkedNames" />
@@ -26,36 +26,39 @@
     <label for="mike">Mike</label>
     <br />
     <span> Checked names: {{ checkedNames }}</span>
-  </div>
-  <div>
+  </div> -->
+ <!--  <div>
     <select v-model="selected">
       <option>A</option>
       <option>B</option>
       <option>C</option>
     </select>
     <spar>{{ selected }}</spar>
+  </div> -->
+  <div class="home">
+    <Button>Button One</Button>
+    <Button>Button Two</Button>
   </div>
-  <div></div>
 </template>
 
 <script>
-import Button from '../components/Button.vue'
+import Button from "../components/Button.vue"; 
 export default {
   name: 'Home',
   components: {
-    Button
+    Button,
   },
   data() {
     return {
-      student: 'Harry',
+      /* student: 'Harry',
       graduated: true,
       animals: ['Pig', 'Horse', 'Donkey', 'Cow', 'Duck'],
       loggedIn: true,
       message: '',
-      checkedNames: [],
-      selected: ''
-    }
-  }
+      checkedNames: [], */
+      selected: "",
+    };
+  },
   /* methods: {
   authState: function() {
     if(this.loggedIn===false){
@@ -68,6 +71,7 @@ export default {
 } */
 }
 </script>
+
 <style>
 h1 {
   color: red;
