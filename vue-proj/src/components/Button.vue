@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <button>TEST</button>
 </template>
 <script>
@@ -22,4 +22,4 @@ button hover{
 button active{
     transform: scale(0.6);
 }
-</style>
+</style> -->
