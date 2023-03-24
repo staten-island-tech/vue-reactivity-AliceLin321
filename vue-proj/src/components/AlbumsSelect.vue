@@ -65,37 +65,39 @@ const albums = [
 
     {
         name: "Thursday's Child Hate",
-        image: "",
+        image: "https://cdn.shopify.com/s/files/1/0247/9495/5839/products/TXT_minisode2_Thumbnail_HATE.png?v=1649775478",
     },
     {
         name: "Thursday's Child End",
-        image: "",
+        image: "https://cdn.shopify.com/s/files/1/0247/9495/5839/products/TXT_minisode2_Thumbnail_END.png?v=1649775463",
     },
     {
         name: "Thursday's Child Mess",
-        image: "",
+        image: "https://cdn.shopify.com/s/files/1/0247/9495/5839/products/TXT_minisode2_Thumbnail_MESS.png?v=1649775492",
     },
     {
         name: "Thursday's Child Tear",
-        image: "",
+        image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR_4l0ZZrO91G32AkNWSPi_uTau8EXDOlb4BpE6WsbVpHK4xenGMza1sw7ewou0kLWWM62EIIYRuQOwtUHV-VslV9xvIZdSDttuMY6oXPgXSa-Lhi8tE-yX&usqp=CAE",
     },
 
     {
         name: "Temptation Daydream ",
-        image: "",
+        image: "https://cdn.shopify.com/s/files/1/0087/5898/4801/products/O1CN01mQDcMz274LXT4mjR1__238137743.png?v=1671200874",
     },
     {
         name: "Temptation Nightmare",
-        image: "",
+        image: "https://cdn.shopify.com/s/files/1/0087/5898/4801/products/O1CN01jB51XE274LXX3Yg5m__238137743_1024x1024.png?v=1671200877",
     },
     {
         name: "Temptation Farewell",
-        image: "",
+        image: "https://cdn.shopify.com/s/files/1/0087/5898/4801/products/O1CN01mQDcMz274LXT4mjR1__238137743.png?v=1671200874",
     },
     {
         name: "Temptation Lullaby",
-        image: "",
+        image: "https://cdn.shopify.com/s/files/1/0247/9495/5839/products/TXTLullaby1000.png?v=1672849750",
     },
 ]
+
+
 
 </script>
