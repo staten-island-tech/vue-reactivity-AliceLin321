@@ -96,7 +96,7 @@ const albums = [
         name: "Temptation Lullaby",
         image: "https://cdn.shopify.com/s/files/1/0247/9495/5839/products/TXTLullaby1000.png?v=1672849750",
     },
-]
+],
 
 
 
