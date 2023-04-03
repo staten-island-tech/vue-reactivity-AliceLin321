@@ -41,3 +41,4 @@ const albums = [
     }, 
 ]
 </script>
+<template> </template>

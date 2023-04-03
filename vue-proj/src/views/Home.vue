@@ -6,7 +6,7 @@
    <ul>
       <li v-for="animal in animals" :key="animal">
         {{ animal }}
-        //animals.forEach(animal) =>{} 
+       <!--  animals.forEach(animal) =>{}  -->
       </li>
     </ul> 
   
